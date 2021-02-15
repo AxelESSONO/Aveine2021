@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim_80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+    android:layout_marginStart="@dimen/dim_5dp"
+    android:layout_marginEnd="@dimen/dim_5dp"
+    app:cardElevation="@dimen/dim_5dp"
+    app:cardCornerRadius="@dimen/dim_2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_80dp"
+        android:background="@color/white"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/wine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wine name"
+            android:textSize="@dimen/dim_14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/dim_10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/favorite_id"
+            android:layout_width="@dimen/dim_40dp"
+            android:layout_height="@dimen/dim_40dp"
+            android:layout_marginEnd="@dimen/dim_10dp"
+            android:background="@drawable/favorite_background"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_favorite"
+            android:padding="@dimen/dim_5dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
