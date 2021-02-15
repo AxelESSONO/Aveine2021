@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Aveine2021</string>
+
+    <string name="search">Find a wine</string>
+    <string name="languages">Change language</string>
+    <string name="Favorites">Favorites</string>
+    <string name="all_wine">All wine</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
 </resources>
